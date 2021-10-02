@@ -1,4 +1,5 @@
 void loop(){
+  float turn_heading;
   while(true) {
     mpu_loop();
     int dist = ping();
